@@ -96,6 +96,18 @@ export function FloatingChairs() {
 					maxPolarAngle={Math.PI * 0.75}
 				/>
 			</Canvas>
+			<div className="absolute inset-0 z-10 flex h-full flex-col items-center justify-center px-4 text-center">
+				<h1 className="font-poppins font-extralight tracking-tight text-slate-800 text-[7vw]">
+					Timeless Design, Eames Chair
+				</h1>
+
+				<a
+					className="bg-[#243B53] rounded font-poppins inline-block mt-6 px-4 py-3 text-2xl font-medium text-white transition-all hover:scale-105"
+					href="#learn-more"
+				>
+					Learn More
+				</a>
+			</div>
 		</div>
 	);
 }
